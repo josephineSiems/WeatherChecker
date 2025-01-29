@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wetter</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  href="https://fonts.googleapis.com/css?family=Open+Sans"
+  rel="stylesheet" />
+
+</head>
+
+<body>
+<div id = "bod" class = "container">
+
+  <div title = "bod" class = "container">
+    <h1 id = "City"> City</h1>
+    <h3 id = "country"> Country </h3>
+  </div>
+
+  <input id="cityInput" type="text" name="cityInput" placeholder ="Type in a city!">
+  <a id = "change" class="button"> Change City </a>
+
+  <div id = "weather" class ="container d-none">
+    <img id = icon src= https://openweathermap.org/img/wn/04d@2x.png>
+    <h2 id = "Desc">Description</h3>
+  </div>
+ 
+  <div id ="infos" class ="container d-none">
+    <h2 id = "Temp"> Temperature</h2>
+    <h3 id = "TempMax"> Temperature Max</h3> 
+    <h3 id = "TempMin"> Temperature Min</h3>
+    <h3 id = "Humidity">Humidity</h3>
+  </div>
+</div>
+
+
+<div id = "newly" class ="container d-none">
+  <div title = "bod2" class = "container">
+   
+  <div id ="infoMoonSun" class ="container d-none">
+    <h2 id = "moonPhase"> Moon Phase</h2>
+
+    <div id ="moonRiseSet" class ="container d-none">
+      <h3 id = "moonRise"> Moon Rise</h3>
+      <h3 id = "moonSet"> Moon Set</h3> 
+    </div>
+    
+    <div id ="sunRiseSet" class ="container d-none">
+      <h3 id = "sunRise">Sun Rise</h3>
+      <h3 id = "sunSet">Sun Set</h3>
+    </div>
+    
+
+  </div>
+  
+</div>
+
+
+
+
+<script src="utils2.js"></script>
+
+
+</body>
+
+</html>
